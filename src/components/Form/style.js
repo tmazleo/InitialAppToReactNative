@@ -3,11 +3,12 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
     formContext: {
         flex: 1,
-        marginTop: 30,
+        marginTop: 20,
+        justifyContent: 'space-around',
         backgroundColor: "#002f3d",
         alignItems: "center",
         borderTopLeftRadius: 60,
-        paddingTop: 30
+        paddingTop: 15
     },
     form: {
         width: "100%",
@@ -48,6 +49,10 @@ const styles = StyleSheet.create({
         color: "red",
         fontWeight: "bold",
         paddingLeft: 20
+    },
+    exibitionResult: {
+        width: "100%",
+        height: "50%"
     }
 });
 
